@@ -55,7 +55,7 @@ have to leave Neovim!
 
 ```lua
 use {
-  "NTBBloodbath/rest.nvim",
+  "athuld/rest.nvim",
   requires = { "nvim-lua/plenary.nvim" },
   config = function()
     require("rest-nvim").setup({
